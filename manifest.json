@@ -1,0 +1,16 @@
+  {
+    "name": "gmeet-focus-join",
+    "version": "1.0",
+    "description": "Autofocus the Join button on GMeet",
+    "manifest_version": 2,
+    "content_scripts": [
+      {
+        "matches": [
+          "https://meet.google.com/*"
+        ],
+        "js": [
+          "contentScript.js"
+        ]
+      }
+    ]
+  }
